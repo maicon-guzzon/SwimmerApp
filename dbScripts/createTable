@@ -1,0 +1,10 @@
+ 
+CREATE TABLE `captura` (
+  `idcaptura` int(11) NOT NULL AUTO_INCREMENT COMMENT '	',
+  `idAtleta` int(11) DEFAULT NULL,
+  `idPlaca` int(11) DEFAULT NULL,
+  `idNado` int(11) DEFAULT NULL,
+  `instante` timestamp NULL DEFAULT NULL,
+  `outras` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idcaptura`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
